@@ -1,0 +1,12 @@
+CSV_2_CBI è uno script python, che ha bisogno - oltre del file csv da elaborare - di un secondo file CSV con la conversione delle causali da Stringa a Numerico (ho inserito quelle di default, ma alcune banche le hanno diverse).
+
+Allego anche gli esempi di file di Causali e di file da elaborare.
+
+Nel file *.py ci sono (dalla riga 345) alcuni parametri da impostare - file names, IBAN, ...
+
+Il codice SIA puo essere lasciato a DUMMY qualora non presente, anche perche se fosse presente, ci sarebbe il flusso CBI 🙂
+
+L'ultimo parametro è il saldo iniziale - prima del primo movimento - in modo che tornino i totali.
+
+Stefano Pensa
+ste.pensa@gmail.com
